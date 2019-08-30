@@ -19,3 +19,5 @@
 5. What are side effects, and how do you sync effects in a React component to state or prop changes?
 
     A "side effect" is anything that affects something outside the scope of the function being executed.
+
+    To sync we add in a dependancy array to the end of the useEffect hook.
