@@ -2,18 +2,20 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledDiv = styled.div`
+    display: flex;
+    flex-direction: column;
     background: white;
     border-radius: 2rem;
     padding: 2px 4px;
-    width: 20%;
+    width: 25%;
     margin: 2px 5px;
+    justify-content: center;
 `
 
 const StyledH1 = styled.h1`
     background: darkblue;
     color: white;
     border-radius: 2rem;
-    width: 100%;
 `
 
 const StyledH2 = styled.h2`
@@ -22,6 +24,7 @@ const StyledH2 = styled.h2`
 
 const StyledP = styled.p`
     margin: 0 auto;
+    padding: 2px 0px;
 `
 
 const Card = (prop) => {
