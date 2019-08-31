@@ -1,13 +1,37 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+    background: white;
+    border-radius: 2rem;
+    padding: 2px 4px;
+    width: 20%;
+    margin: 2px 5px;
+`
+
+const StyledH1 = styled.h1`
+    background: darkblue;
+    color: white;
+    border-radius: 2rem;
+    width: 100%;
+`
+
+const StyledH2 = styled.h2`
+    text-decoration: underline;
+`
+
+const StyledP = styled.p`
+    margin: 0 auto;
+`
 
 const Card = (prop) => {
     return (
-        <div>
-            <h1>Hi, My name is </h1>
-            <h2>{prop.person.name}</h2>
-            <p>I am this tall : {prop.person.height}cm</p>
-            <p>I weigh this much : {prop.person.mass}kg</p>  
-        </div>
+        <StyledDiv >
+            <StyledH1>Hi, My name is :</StyledH1>
+            <StyledH2>{prop.person.name}</StyledH2>
+            <StyledP>I am this tall : {prop.person.height}cm</StyledP>
+            <StyledP>I weigh this much : {prop.person.mass}kg</StyledP>  
+        </StyledDiv>
     )
 }
 
