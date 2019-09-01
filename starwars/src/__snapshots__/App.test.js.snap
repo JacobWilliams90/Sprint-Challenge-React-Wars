@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <h1
+    className="Header"
+  >
+    React Wars
+  </h1>
+  <div
+    className="cards"
+  />
+</div>
+`;
