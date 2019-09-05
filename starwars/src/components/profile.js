@@ -30,7 +30,7 @@ const StyledP = styled.p`
 const Card = (prop) => {
     return (
         <StyledDiv >
-            <StyledH1>Hi, My name is :</StyledH1>
+            <StyledH1>Hi, My Name is :</StyledH1>
             <StyledH2>{prop.person.name}</StyledH2>
             <StyledP>I am this tall : {prop.person.height}cm</StyledP>
             <StyledP>I weigh this much : {prop.person.mass}kg</StyledP>  
